@@ -1,3 +1,83 @@
+## Financial Needs Analysis
+
+#### This a final project for Epicodus. 02/26/2021
+
+#### **Constantine Yakubovski**
+
+## Description
+
+_Financial Needs Analysis is a web app to help clients to achieve their financial goals._
+
+### SPECS:
+
+-   Input and store data with forms
+-   Ability to take a quiz on financial literacy
+-   Ability to SIGNIN/SIGNOUT  
+-   Ability to LOGIN/LOGOUT
+-   Admin and User Athentication
+-   Data stored in cloud via Firebase
+-   Output resultS in a printable pdf format
+
+
+## Setup/Installation Requirements
+
+-   Clone this repository using the command   `https://github.com/faustlarsen/fna.git`
+    
+-   `cd fna`  to get into main directory
+    
+-   `npm install`  to install dependencies
+    
+-   `npm run start`  to view the site
+    
+## Technologies Used
+
+-   HTML
+-   CSS
+-   React-Bootstrap
+-   React
+-   JavaScript
+-   Firebase
+
+License This software is licensed under the MIT license
+
+Copyright (c) 2021 Constantine Yakubovski
+
+
+
+## CAPSTONE PROPOSAL
+
+### Name of Student: CONSTANTINE YAKUBOVKSI
+
+### Name of Project: FINANCIAL NEEDS ANALYSIS
+
+  
+
+Project's Purpose or Goal: To help clients to achieve their financial goals.
+
+  
+
+List the absolute minimum features the project requires to meet this purpose or goal:
+
+-   Admin, User Authentication
+-   Create several forms to gather financial data from the client
+-   Store it in the cloud
+-   Proper calculation
+-   Output pdf with results with graphs and pie charts
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+
+-   ReactJS (frontend)
+-   JS (backend)
+-   Firebase (store data)
+
+If you finish developing the minimum viable product  (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
+-   Quiz on financial literacy
+-   Styling with SASS (still need to learn more about it)
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+
+-   Not sure yet
 ![Preview](./diagrams/fna.png)
 ![Preview](./diagrams/fna1.png)
 ![Preview](./diagrams/fna2.png)
