@@ -1,8 +1,8 @@
 ## Financial Needs Analysis
 
-#### This a final project for Epicodus. 02/26/2021
+#### This is a final project for Epicodus. 02/26/2021
 
-#### **Constantine Yakubovski**
+#### **by Constantine Yakubovski**
 
 ## Description
 
@@ -42,7 +42,7 @@ License This software is licensed under the MIT license
 
 Copyright (c) 2021 Constantine Yakubovski
 
-
+---------------------------------------------------------
 
 ## CAPSTONE PROPOSAL
 
@@ -78,6 +78,10 @@ If you finish developing the minimum viable product  (MVP) with time to spare, w
 What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
 -   Not sure yet
+
+---------------------------------------------------------
+
+
 ![Preview](./diagrams/fna.png)
 ![Preview](./diagrams/fna1.png)
 ![Preview](./diagrams/fna2.png)
