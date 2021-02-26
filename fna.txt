@@ -1,2 +1,4 @@
 9:08 created txt file to keep track of activities.
 planning on scetching the diagram for the app
+9:50 added diagram
+planning on scetching forms for different questions
