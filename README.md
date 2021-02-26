@@ -5,3 +5,5 @@
 ![Preview](./diagrams/fna4.png)
 ![Preview](./diagrams/fna5.png)
 ![Preview](./diagrams/fna6.png)
+![Preview](./diagrams/fna7.png)
+![Preview](./diagrams/fna8.png)
