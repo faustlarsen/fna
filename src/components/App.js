@@ -1,9 +1,12 @@
 import React from 'react';
 import Quiz from './Quiz';
+import Header from './Header';
+
 
 function App() {
   return (
-    <React.Fragment >
+   <React.Fragment>
+      {/* <Header /> */}
       <Quiz />
     </React.Fragment>
   );
