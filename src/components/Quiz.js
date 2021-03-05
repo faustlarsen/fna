@@ -43,8 +43,13 @@ function Quiz() {
 			],
     },
   ];
- 
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+
+  const resetQuiz = () => {
+    setCurrentQuestion(0);
+    setShowScore(0);
+    setScore(0);
+  }
+  
   const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
@@ -66,7 +71,8 @@ function Quiz() {
     <div className='quiz'>
 			{showScore ? (
 				<div className='score-section'>
-					You got {score} correct out of {questions.length}.
+					You got {score} out of {questions.length}
+          <button className="play-again-button" onClick={() => resetQuiz()}>Try Again</button>
 				</div>
         ) : (
 				<React.Fragment>
@@ -89,15 +95,3 @@ function Quiz() {
 }
 
 export default Quiz;
-
-// const resetQuiz = () => {
-//   setCurrentQuestionIndex(0);
-
-// };
-
-// <button className="play-again-button" onClick={() => resetQuiz()}>
-// Play Again
-// </button>
-
-
-

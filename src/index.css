@@ -1,15 +1,20 @@
-* {
+/* * {
   font-family: "Verdana", cursive, sans-serif;
   color: #ffffff;
-}
+} */
 
 body {
   margin: 0;
   background-color: #d7e8f0;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.quizBlock {
+  margin-left: 5in;
+
 }
 
 .quiz {
@@ -71,4 +76,98 @@ button {
 
 button:focus {
   outline: none;
+}
+
+/* navbar */
+body {
+  margin: 0;
+  font-family: 'RobotoRegular', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.header {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-top {
+  display: flex;
+  width: 100%;
+  height: 80px;
+
+}
+
+.header-top__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  
+}
+
+.header-logo {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: RobotoThin;
+  font-size: 100px;
+
+}
+
+.header-top__navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header-top__seperator {
+  width: 100%;
+  border: none;
+  height: 2px;
+  margin-top: 2px;
+  background-color: black;
+}
+
+.header-top__navigation {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 55px;
+}
+
+
+ @font-face {
+  font-family: 'RobotoRegular';
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoThin';
+  src: url('./fonts/Roboto-Thin.ttf');
 }
