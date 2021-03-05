@@ -3,7 +3,8 @@ import Header from './header/Header';
 import FnaSidebar from './sidebar/FnaSidebar';
 // import Quiz from './quiz/Quiz';
 // import HouseholdForm from './household/HouseholdForm';
-import AssumptionForm from './assumptions/AssumptionForm';
+// import AssumptionForm from './assumptions/AssumptionForm';
+import GoalsForm from './goals/GoalsForm';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
          <div id='formHolder'>
             {/* <Quiz /> */}
             {/* <HouseholdForm /> */}
-            <AssumptionForm />
+            {/* <AssumptionForm /> */}
+            <GoalsForm />
         </ div>
       </ div>
       {/* <div className='quizBlock'>

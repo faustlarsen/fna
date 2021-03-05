@@ -1,0 +1,135 @@
+/*Goals*/
+#goal-terms {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 300px;
+}
+#term-title1 {
+  text-align: center;
+  margin-left: 100px;
+}
+#term-title2 {
+  text-align: center;
+  margin-left: 100px;
+}
+#term-title3 {
+  text-align: center;
+  margin-left: 100px;
+}
+
+/*Goals List check-boxes*/
+
+#goals-mainForm {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  display: flex;
+  flex-direction: row;
+}
+
+#goals-list {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  display: flex;
+  flex-direction: row;
+}
+
+#goals-checkBox1 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+}
+
+#goals-checkBox1  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox2 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+}
+
+#goals-checkBox2  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox3 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: 48px;
+}
+
+#goals-checkBox3  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+
+ #goals-checkBox4 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: -110px;
+}
+
+#goals-checkBox4  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox5 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: -30px;
+}
+
+#goals-checkBox5  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox6 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: 40px;
+}
+
+#goals-checkBox6  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox7 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: -164px;
+
+}
+
+#goals-checkBox7  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox8 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: -25px;
+}
+
+#goals-checkBox8  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox9 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: -20px;
+}
+
+#goals-checkBox9  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
+ #goals-checkBox10 {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  margin-left: 56px;
+}
+
+#goals-checkBox10  input{
+  margin: 25px 0px 0px 210px;
+  margin-left: 210px;
+ }
+
