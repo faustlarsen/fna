@@ -5,7 +5,8 @@ import FnaSidebar from './sidebar/FnaSidebar';
 // import HouseholdForm from './household/HouseholdForm';
 // import AssumptionForm from './assumptions/AssumptionForm';
 // import GoalsForm from './goals/GoalsForm';
-import CashIncome from './cashflow/CashIncome';
+// import CashIncome from './cashflow/CashIncome';
+import CashExpenses from './cashflow/CashExpenses';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
             {/* <HouseholdForm /> */}
             {/* <AssumptionForm /> */}
             {/* <GoalsForm /> */}
-            <CashIncome />
+            {/* <CashIncome /> */}
+             <CashExpenses />
         </ div>
       </ div>
       {/* <div className='quizBlock'>

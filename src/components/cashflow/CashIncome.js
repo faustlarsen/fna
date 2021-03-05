@@ -1,5 +1,5 @@
 import React from 'react';
-import './cashflow.css';
+import './cashFlow.css';
 
 function GoalsForm() {
 return (  
