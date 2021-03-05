@@ -1,6 +1,7 @@
 import React from 'react';
-import Quiz from './Quiz';
+// import Quiz from './Quiz';
 import Header from './Header';
+import FnaSidebar from './FnaSidebar';
 
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
    <React.Fragment>
     <Header />
       <div id="parentContainer" >
-  
+      <FnaSidebar />
          <div id='formHolder'>
-            <Quiz />
+            {/* <Quiz /> */}
 
         </ div>
       </ div>

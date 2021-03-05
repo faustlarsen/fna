@@ -171,3 +171,17 @@ code {
   font-family: 'RobotoThin';
   src: url('./fonts/Roboto-Thin.ttf');
 }
+
+  
+  #navFNA {
+    margin-top: 40px;
+     /* border: 1px rgb(72, 255, 0) solid; */
+     /* box-shadow: 0 0 20px 0 rgba(230, 203, 248, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+  }
+  
+  .FNANavItemBG {
+    /* border: 1px rgb(72, 255, 0) solid; */
+    width: 200px;
+    height: 60px;
+    box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 5px 1px 1px rgba(0, 0, 0, 0.1);
+  }
