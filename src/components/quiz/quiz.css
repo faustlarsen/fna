@@ -4,7 +4,7 @@
 }
 
 .quiz {
-  background-color: #b28ee9;
+  background-color: #b28ee993;
   width: 500px;
   min-height: 200px;
   height: min-content;
@@ -14,6 +14,8 @@
   display: flex;
   justify-content: space-evenly;
   border: 1px solid #f8f8f8;
+  margin-left: 300px;
+  margin-top: 100px;
 }
 
 .score-section {
@@ -44,6 +46,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 button {
@@ -62,4 +65,19 @@ button {
 
 button:focus {
   outline: none;
+}
+
+#formHolder {
+  flex: 1;
+  /* border: 1px rgb(17, 0, 255) solid;  */
+  padding: 20px;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 5px 1px 1px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#parentContainer {
+  display: flex;
+  /* border: 1px rgb(255, 38, 0) solid;  */
+
 }

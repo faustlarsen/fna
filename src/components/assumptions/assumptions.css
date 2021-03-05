@@ -1,19 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-
-.form-container {
-  width: 360px;
-  background-color: rgb(227, 191, 252);
-  margin: auto;
-  box-shadow: 5px 5px 20px 5px rgba(230, 203, 248, 0.2), 0 5px 5px 0 rgba(1, 1, 1, 0.24);
-  padding: 10px;
-}
-
-.register-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 10px;
+#assumptions {
+  width: 25px;
+  display: inline-block;
+  text-align: right;
 }
 
 .form-field {
@@ -29,11 +17,6 @@
   border-bottom: 1px solid #000000;
   float: left; 
   margin: 0 20px 0 0; 
-  
-}
-
-input {
-  background: #f2f2f2;
 }
 
 button {
@@ -48,21 +31,13 @@ button:disabled {
 
 #parentContainer {
   display: flex;
-  /* border: 1px rgb(255, 38, 0) solid;  */
-
 }
 
 #formHolder {
   flex: 1;
-  /* border: 1px rgb(17, 0, 255) solid;  */
   padding: 20px;
-  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 5px 1px 1px rgba(0, 0, 0, 0.1);
   margin-left: 30px;
-}
-
-/*houseHold Form*/
-#houseHold-mainForm {
-  text-transform: uppercase;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 5px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 [type='button'].formButton {
@@ -88,4 +63,5 @@ button {
 button:focus {
   outline: none;
 }
+
 
