@@ -1,7 +1,8 @@
 import React from 'react';
-// import Quiz from './Quiz';
-import Header from './Header';
-import FnaSidebar from './FnaSidebar';
+// import Quiz from './quiz/Quiz';
+import Header from './header/Header';
+import FnaSidebar from './sidebar/FnaSidebar';
+import HouseholdForm from './household/HouseholdForm';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <FnaSidebar />
          <div id='formHolder'>
             {/* <Quiz /> */}
-
+            <HouseholdForm />
         </ div>
       </ div>
       {/* <div className='quizBlock'>

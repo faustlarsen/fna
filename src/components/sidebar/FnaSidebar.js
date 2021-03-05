@@ -1,6 +1,6 @@
-
-  import React from 'react';
-
+import React from 'react';
+import './sidebar.css';
+ 
 
   function FnaSidebar() {
   return (
@@ -74,6 +74,5 @@
   </ React.Fragment>
   );
 }
-
 
 export default FnaSidebar;
