@@ -7,6 +7,7 @@ import FnaSidebar from './sidebar/FnaSidebar';
 // import GoalsForm from './goals/GoalsForm';
 // import CashIncome from './cashflow/CashIncome';
 import CashExpenses from './cashflow/CashExpenses';
+// import CashSummary from './cashflow/CashSummary';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
             {/* <AssumptionForm /> */}
             {/* <GoalsForm /> */}
             {/* <CashIncome /> */}
-             <CashExpenses />
+            <CashExpenses />
+            {/* <CashSummary /> */}
         </ div>
       </ div>
       {/* <div className='quizBlock'>
