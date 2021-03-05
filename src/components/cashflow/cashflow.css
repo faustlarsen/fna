@@ -1,0 +1,234 @@
+/*cash flow page1*/
+
+#cash-categories {
+  /* border: 1px rgb(72, 255, 0) solid; */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 300px;
+}
+
+#cash-title1 {
+  text-align: center;
+  /* margin-left: 100px; */
+  width: 2in;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+#cash-title2 {
+  text-align: center;
+  /* margin-left: 100px; */
+  width: 2in;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+#cash-title3 {
+  text-align: center;
+  /* margin-left: 100px; */
+  width: 2in;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+} 
+
+
+/*Regular Income Form*/
+
+.regularIncome{
+   /* border: 1px rgb(72, 255, 0) solid; */
+}
+
+#cash-form1 {
+/* border: 1px rgb(72, 255, 0) solid; */
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-left: 200px;
+}
+
+#cash-titles1 {
+width: 150px;
+}
+#cash-titles2 {
+width: 150px;
+}
+#cash-titles3 {
+width: 150px;
+}
+#cash-titles4 {
+width: 150px;
+}
+
+#cash-form2 {
+/* border: 1px rgb(72, 255, 0) solid; */
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-left: 200px;
+}
+
+#cash-props1 {
+width: 150px;
+}
+#cash-props2 {
+width: 150px;
+}
+#cash-props3 {
+width: 150px;
+}
+#cash-props4 {
+width: 150px;
+
+}
+
+.cash-form-field1 {
+width: 80px;
+border: 0;
+background-color: rgba(255, 0, 0, 0);
+font-family: "Roboto", sans-serif; 
+text-decoration: none;
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+}
+
+.cash-form-field2 {
+width: 80px;
+border: 0;
+background-color: rgba(255, 0, 0, 0);
+font-family: "Roboto", sans-serif; 
+text-decoration: none;
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+}
+
+.dropdown1 {
+width: 80px;
+border: 0;
+background-color: rgba(255, 0, 0, 0);
+font-family: "Roboto", sans-serif; 
+text-decoration: none;
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+}
+
+.dropdown2 {
+width: 130px;
+border: 0;
+background-color: rgba(255, 0, 0, 0);
+font-family: "Roboto", sans-serif; 
+text-decoration: none;
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+}
+  
+
+/*cash form output*/
+
+#cash-form-output {
+box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.1), 0 5px 5px 0 rgba(1, 1, 1, 0.1);
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-left: 200px;
+width: 720px
+}
+
+#taxes-form-output {
+/* box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.1), 0 5px 5px 0 rgba(1, 1, 1, 0.1); */
+display: flex;
+flex-direction: row;
+text-align: center;
+margin-left: 200px;
+}
+
+/*taxes form*/
+
+#taxes-form-output {
+display: flex;
+/* flex-direction: row; 
+text-align: center; 
+margin-left: 300px; */
+}
+
+
+button:disabled {
+  cursor: default;
+}
+
+#parentContainer {
+  display: flex;
+}
+
+#formHolder {
+  flex: 1;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 5px 1px 1px rgba(0, 0, 0, 0.1);
+  /* border: 1px rgb(17, 0, 255) solid;  */
+   padding: 10px;
+  margin-left: 30px; 
+}
+
+[type='button'].formButton {
+  width: 2in;
+  margin-left: 7in;
+  margin-top: 1in;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d47;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.tax-form-field1 {
+  width: 80px;
+  border: 0;
+  background-color: rgba(255, 0, 0, 0);
+  font-family: "Roboto", sans-serif; 
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.tax-form-field2 {
+  width: 80px;
+  border: 0;
+  background-color: rgba(255, 0, 0, 0);
+  font-family: "Roboto", sans-serif; 
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+  
+.tax-form-field3 {
+  width: 80px;
+  border: 0;
+  background-color: rgba(255, 0, 0, 0);
+  font-family: "Roboto", sans-serif; 
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+  
+#taxes-form-output-main {
+  box-shadow: 0px 1px 0px 0px rgba(1, 1, 1, 0.1), 0 5px 5px 0 rgba(1, 1, 1, 0.1);
+  width: 720px;
+  margin-left: 200px;
+  text-align: left;
+}
