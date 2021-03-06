@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 import './header.css';
 
+
 function Header () {
   return (
     <section className="header">
