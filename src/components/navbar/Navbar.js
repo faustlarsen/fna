@@ -17,7 +17,7 @@ function Navbar () {
       <Link to="/tips" className="navbar-item">Tips</Link>
       <Link to="/contact" className="navbar-item">Contact</Link>
       <Link to="/signin" className="navbar-item">SignIn</Link>
-      <Link to="/login" className="navbar-item">Login</Link>
+      <Link to="/login" className="navbar-item">LogIn</Link>
       
     </section>
   )

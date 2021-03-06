@@ -10,38 +10,44 @@ import Quiz from './quiz/Quiz';
 // import CashSummary from './cashflow/CashSummary';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Signin from "./Signin";
+import Login from "./Login";
+
 
 function App() {
   return (
-   <React.Fragment>
-     <Router>
-    <Header />
-    <Switch>
-      <div id="parentContainer" >
-      <FnaSidebar />
+  <React.Fragment>
+    <Router>
+      <Header />
+        <Switch>
+          <div id="parentContainer" >
+            <FnaSidebar />
 
-         <div id='formHolder'>
-         <Route path="/signin">
-          <Signin />
-        </Route>
+              <div id='formHolder'>
 
-        <Route path="/quiz">
-          <Quiz />
-        </Route>
+                <Route path="/quiz">
+                  <Quiz />
+                </Route>
+          
+                <Route path="/signin">
+                  <Signin />
+                </Route>
+
+                <Route path="/login">
+                  <Login />
+                </Route>
+
+   
             {/* <HouseholdForm /> */}
             {/* <AssumptionForm /> */}
             {/* <GoalsForm /> */}
             {/* <CashIncome /> */}
             {/* <CashExpenses /> */}
             {/* <CashSummary /> */}
-        </ div>
-      </ div>
-      </Switch>
-      </Router>
-      {/* <div className='quizBlock'>
- 
-      </div> */}
-    </React.Fragment>
+              </ div>
+          </ div>
+        </Switch>
+    </Router>
+  </React.Fragment>
   );
 }
 
