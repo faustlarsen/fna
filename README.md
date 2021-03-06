@@ -16,7 +16,7 @@ _Financial Needs Analysis is a web app to help clients to achieve their financia
 -   Ability to LOGIN/LOGOUT
 -   Admin and User Athentication
 -   Data stored in cloud via Firebase
--   Output resultS in a printable pdf format
+-   Output results in a printable pdf format
 
 
 ## Setup/Installation Requirements
