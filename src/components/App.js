@@ -10,7 +10,6 @@ import Quiz from './quiz/Quiz';
 // import CashSummary from './cashflow/CashSummary';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Signin from "./Signin";
-import Login from "./Login";
 
 
 function App() {
@@ -32,9 +31,6 @@ function App() {
                   <Signin />
                 </Route>
 
-                <Route path="/login">
-                  <Login />
-                </Route>
 
    
             {/* <HouseholdForm /> */}
