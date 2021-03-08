@@ -18,3 +18,5 @@ shall continue scething the rest og the pages
 11:11 finishing with firebase auth, and connectiong components files for sign in
 11:54 cant figure out firebase errors. still working on it
 1:07 still debugging firestore. going for lunch
+2:05 back from lunch 
+3:41 learning react/redux
