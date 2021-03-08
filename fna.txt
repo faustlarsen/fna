@@ -17,3 +17,4 @@ shall continue scething the rest og the pages
 9:57 trying to implement sign in 
 11:11 finishing with firebase auth, and connectiong components files for sign in
 11:54 cant figure out firebase errors. still working on it
+1:07 still debugging firestore. going for lunch
