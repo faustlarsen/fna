@@ -70,3 +70,11 @@ button:focus {
   outline: none;
 }
 
+.cash-navbar-item {
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+}

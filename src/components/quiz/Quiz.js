@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './quiz.css';
 
+
 function Quiz() {
+ 
   const questions = [
     {
       questionText: 'If you owed someone $500 plus interest, which would be higher to pay back?',
@@ -40,7 +42,7 @@ function Quiz() {
       answerOptions: [
 				{ answerText: 'One place', isCorrect: false },
         { answerText: 'More than one place', isCorrect: true },
-        { answerText: 'Under the matress', isCorrect: true },
+        { answerText: 'Under the mattress', isCorrect: true },
 			],
     },
   ];
@@ -73,7 +75,7 @@ function Quiz() {
 			{showScore ? (
 				<div className='score-section'>
 					You got {score} out of {questions.length}
-          <button className="play-again-button" onClick={() => resetQuiz()}>Try Again</button>
+          <button className="try-again-button" onClick={() => resetQuiz()}>Try Again</button>
 				</div>
         ) : (
 				<React.Fragment>
@@ -92,6 +94,7 @@ function Quiz() {
 				</React.Fragment>    
 			)}
 		</div>
+
 	);
 }
 

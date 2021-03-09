@@ -6,7 +6,18 @@
 
 .FNANavItemBG {
   /* border: 1px rgb(72, 255, 0) solid; */
+  /* text-align: center; */
   width: 200px;
   height: 60px;
   box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 5px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+
 }

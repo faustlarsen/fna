@@ -1,24 +1,25 @@
 import React from 'react';
-import './cashFlow.css';
+import './cashIncome.css';
+import { Link } from "react-router-dom";
 
-function GoalsForm() {
+function CashIncome() {
 return (  
   < React.Fragment>
     {/* <div id="parentContainer" > */}
       {/* <div id='formHolder'> */}
       <div class='cashTitle'>
-        <h2>Cash Flow</h2>
+        <h2>CASH FLOW</h2>
       </div>
 
       <div id='cash-categories'>
         <div id='cash-title1'>
-          <h4>Income</h4>
+        <Link to="/CashIncome" className="cash-navbar-item">Income</Link>
         </div>
         <div id='cash-title2'>
-          <h4>Expenses</h4>
+        <Link to="/CashExpenses" className="cash-navbar-item">Expenses</Link>
         </div>
         <div id='cash-title3'>
-          <h4>Summary</h4>
+        <Link to="/CashSummary" className="cash-navbar-item">Summary</Link>
         </div>
       </div>
 
@@ -180,4 +181,4 @@ return (
   );
 }
 
-export default GoalsForm;
+export default CashIncome;

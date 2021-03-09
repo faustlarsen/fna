@@ -59,9 +59,9 @@ code {
 }
 
 .header-top__navbar {
-  display: flex;
+  /* display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .header-top__seperator {
@@ -73,9 +73,10 @@ code {
 }
 
 .header-top__navigation {
-  display: flex;
+  /* display: flex;
   flex: 1;
   flex-direction: row;
   justify-content: flex-end;
-  margin-right: 55px;
+  margin-right: 55px; */
 }
+

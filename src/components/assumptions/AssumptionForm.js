@@ -1,13 +1,14 @@
 import React from 'react';
 import './assumptions.css';
 
+
 function AssumptionForm() {
 return (  
   < React.Fragment>
     {/* <div id="parentContainer" > */}
       {/* <div id='formHolder'> */}
        <div id='assumptions-mainForm'>
-       <h2>Assumptions</h2>
+       <h2>ASSUMPTIONS</h2>
        <h4>Assumed Return on Revenue on Assets</h4>
        <label>During Retirement</label>
         <input

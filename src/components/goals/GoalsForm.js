@@ -7,7 +7,7 @@ return (
     {/* <div id="parentContainer" > */}
       {/* <div id='formHolder'> */}
       <div class='goalsTitle'>
-        <h2>Goals and Dreams</h2>
+        <h2>GOALS & DREAMS</h2>
       </div>
 
       <div id='goal-terms'>
