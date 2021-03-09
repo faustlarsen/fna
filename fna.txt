@@ -13,6 +13,7 @@ shall continue scething the rest og the pages
 2:48 tons of googling on react
 3:23 draft a quiz
 4:36 reading about react routes and nav bar links
+----------------------------
 9:13 working on firebase authentication
 9:57 trying to implement sign in 
 11:11 finishing with firebase auth, and connectiong components files for sign in
@@ -20,3 +21,5 @@ shall continue scething the rest og the pages
 1:07 still debugging firestore. going for lunch
 2:05 back from lunch 
 3:41 learning react/redux
+-----------------------------
+9:01 starting a small side project to practice storing data
