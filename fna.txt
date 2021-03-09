@@ -23,3 +23,4 @@ shall continue scething the rest og the pages
 3:41 learning react/redux
 -----------------------------
 9:01 starting a small side project to practice storing data
+10:06 still practising with forms and databse
