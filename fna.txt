@@ -36,3 +36,4 @@ shall continue scething the rest og the pages
 11:58 initialized react-native expo project
 12:58 practicing react-native. going to lunch
 3:00 initialize new repo to practice react-native
+4:00 https://github.com/faustlarsen/react-native link to react-native practice
