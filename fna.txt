@@ -28,3 +28,4 @@ shall continue scething the rest og the pages
 1:00 still doing homework, going to lunch
 2:45 computer froze after lunch, had been reviving it, continue with homework
 4:06 still cant fix firebase. data wont store. shall continue figuring out.
+5:15 can't figure out firestore error. trying to add functionality to buttons
