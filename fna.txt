@@ -34,3 +34,4 @@ shall continue scething the rest og the pages
 10:19 starting new small project to practice forms and buttons
 11:02 purchased udemy react-native, mobX and typescript lessons. will be studying those.
 11:58 initialized react-native expo project
+12:58 practicing react-native. going to lunch
