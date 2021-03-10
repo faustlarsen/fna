@@ -31,3 +31,4 @@ shall continue scething the rest og the pages
 5:15 can't figure out firestore error. trying to add functionality to buttons
 ------------------------------
 9:18 attempt to bring functionality to the buttons
+10:19 starting new small project to practice forms and buttons
