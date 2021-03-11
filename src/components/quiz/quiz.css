@@ -1,9 +1,9 @@
 .quizBlock {
   margin-left: 5in;
 }
-
+/* e4dbf1 */
 .quiz {
-  background-color: #e4dbf1;
+  background-color: #e4dbf100;
   width: 650px;
   min-height: 200px;
   height: min-content;
@@ -17,6 +17,7 @@
   margin-left: 200px;
   margin-top: 50px;
 }
+
 
 .score-section {
   display: flex;

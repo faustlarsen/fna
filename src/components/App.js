@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './header/Header';
+import Home from './home/Home';
 import FnaSidebar from './sidebar/FnaSidebar';
 import Quiz from './quiz/Quiz';
 import HouseholdForm from './household/HouseholdForm';
@@ -11,7 +12,6 @@ import CashSummary from './cashSummary/CashSummary';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Signin from "./Signin/Signin";
 
-
 function App() {
   return (
   <React.Fragment>
@@ -22,6 +22,10 @@ function App() {
             <FnaSidebar />
 
               <div id='formHolder'>
+
+              <Route path="/home">
+                  <Home />
+              </Route>
 
               <Route path="/household">
                   <HouseholdForm />
@@ -49,12 +53,12 @@ function App() {
 
                 <Route path="/quiz">
                 <div id='quizTitle'>
-                  <h1>HOW FINANCIALLY LITERATE ARE YOU? </h1>
+                  <h1>ARE YOU FINANCIALLY LITERATE ? </h1>
+                  <h3>76% of people can't answer 4 out of 5 questions. Can you?</h3>
                 </ div>
                   <Quiz />
                 </Route>
 
-          
                 <Route path="/signin">
                   <Signin />
                 </Route>
