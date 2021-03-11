@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header/Header';
 import Home from './home/Home';
+import Aum from './aum/Aum';
 import FnaSidebar from './sidebar/FnaSidebar';
 import Quiz from './quiz/Quiz';
 import HouseholdForm from './household/HouseholdForm';
@@ -25,6 +26,10 @@ function App() {
 
               <Route path="/home">
                   <Home />
+              </Route>
+
+              <Route path="/aum">
+                  <Aum />
               </Route>
 
               <Route path="/household">

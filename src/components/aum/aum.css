@@ -1,0 +1,40 @@
+#aumTitle {
+  margin-left: 200px;
+  width: 7.5in;
+  text-align: center;
+  margin-top: -30px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+:root {
+  --border-color: #000000;
+  --fill-color: #f86a6a;
+}
+
+
+body {
+  /* background-color: #3494e4; 
+  color: #fff;  */
+  /* font-family: 'Montserrat'; */
+}
+
+
+.thermomemtet {
+  background-color: #fff;
+  border: 4px solid var(--border-color);
+  color: var(--border-color);
+  border-radius: 0 0 40px 40px;
+  height: 500px;
+  width: 120px;
+  margin-left: 5in;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.aumButton {
+  width: 0.75in;
+  margin-left: 5.3in;
+  text-align: center;
+}

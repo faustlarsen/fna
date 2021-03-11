@@ -7,10 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .navbar {
   display: flex;
@@ -29,7 +29,7 @@ code {
 }
 
 .header {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -55,7 +55,6 @@ code {
   text-decoration: inherit;
   font-family: RobotoThin;
   font-size: 100px;
-
 }
 
 .header-top__navbar {
