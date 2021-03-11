@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import HouseholdForm from "./HouseholdForm";
 import { useFirestore } from 'react-redux-firebase'
 
-function NewClientForm(props){
+function NewHouseholdForm(props){
   const firestore = useFirestore();
   function addClientToFirestore(event) {
     event.preventDefault();
@@ -28,8 +28,8 @@ function NewClientForm(props){
   );
 }
 
-NewClientForm.propTypes = {
+NewHouseholdForm.propTypes = {
   onNewClientCreation: PropTypes.func
 };
 
-export default NewClientForm;
+export default NewHouseholdForm;
